@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,300,500,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #aedaa6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.header .logo {
+  font-size: 20px;
+  font-family: 'Sriracha', cursive;
+  color: #000;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin-right: 10px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+}
+
+.product-container {
+  width: 100%;
+  max-width: calc(100% - 20px);
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  display: block;
+}
+
+.product-container:hover {
+  transform: translateY(0);
+}
+
+.product-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0 0;
+}
+
+.product-details {
+  padding: 10px;
+  text-align: center;
+}
+
+.product-details h2 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.product-details p {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.product-details button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.product-details button:hover {
+  background-color: #ff5722cc;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+
+  .header .logo {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+  .nav-items {
+    margin-right: 20px;
+  }
+
+  .nav-items a {
+    padding: 35px 20px;
+  }
+
+  .product-container {
+    width: calc(33.33% - 32px);
+    margin: 16px;
+  }
+
+  .product-container:hover {
+    transform: translateY(-5px);
+  }
+
+  .product-details h2 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+
+  .product-details p {
+    font-size: 1rem;
+  }
+
+  .product-details button {
+    padding: 8px 16px;
+    font-size: 1rem;
+  }
+}

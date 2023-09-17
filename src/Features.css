@@ -1,0 +1,50 @@
+
+.product {
+    
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 1400px;
+}
+
+.faq-heading {
+    font-size: 24px;
+    margin-top: 0;
+    color: #007bff; 
+  }
+  
+  .faq-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .faq-list li {
+    margin-bottom: 20px;
+  }
+  
+  .faq-list li strong {
+    font-weight: bold;
+    color: #333; 
+  }
+  
+ 
+  .faq-list li strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .faq-list li {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  
+  .faq-list li p {
+    font-size: 16px;
+  }
+  

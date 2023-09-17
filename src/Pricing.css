@@ -1,0 +1,110 @@
+
+.pricebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .pricebox:hover {
+    transform: translateY(-5px);
+  }
+  
+ 
+  .im {
+    max-width: 100px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+ 
+  .detail {
+    flex-grow: 1;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
+  .productbrand {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+
+  .productprice {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 15px; 
+  }
+  
+  
+  .productactual-price {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #888;
+    margin-top: 5px;
+  }
+  
+  
+  .productdiscount {
+    font-size: 16px;
+    color: #007bff;
+    margin-top: 5px;
+  }
+  
+
+  .quantitycontrol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+
+  .btnm,
+  .btnp {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  
+  .count {
+    font-size: 16px;
+  }
+  
+  
+  .btncartbtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px; 
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; 
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .btncartbtn:hover {
+    background-color: #0056b3;
+  }
+  
